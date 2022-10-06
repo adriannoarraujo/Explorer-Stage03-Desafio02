@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário intermediário 02</title>
+  <meta name="description" content="Segundo desafio da stage 03 do curso explorar da Rocketseat">">
+
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Staatliches&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="page">
+
+    <header>
+
+      <h1>Avalie a sua mentoria</h1>
+
+      <p>Chegou a hora de avaliar o seu mentor. Bora lá?</p>
+
+      <img src="images/img1.svg" alt="Imagem de uma balão, sumilando um comentário">
+
+      <div>
+        <h2>INFORMAÇÕES PESSOAIS</h2>
+      </div>
+
+    </header>
+
+    <form>
+
+      <fieldset>
+
+        <div>
+
+          <div class="side">
+
+            <div class="entrada">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome">
+            </div>
+
+            <div class="entrada">
+              <label for="sobrenome">Sobrenome</label>
+              <input type="text" id="sobrenome">
+            </div>
+
+          </div>
+
+
+          <div class="entrada">
+            <label for="email">Email</label>
+            <input type="email" id="email">
+          </div>
+
+        </div>
+
+      </fieldset>
+
+      <fieldset>
+
+        <div>
+
+          <legend>Informações do mentor</legend>
+
+          <hr>
+
+          <div class="entrada">
+            <label for="mentor">Selecione quem foi o seu mentor</label>
+
+            <select name="" id="">
+              <option value=""></option>
+              <option value="adriano">Adriano Araújo</option>
+              <option value="Gustavo">Gustavo Barreto</option>
+              <option value="bianca">Bianca Barreto</option>
+            </select>
+
+          </div>
+
+          <div class="entrada">
+            <label for="feedbeek">Feedback sobre o mentor</label>
+            <textarea id="feedbeek" cols="30" rows="10"></textarea>
+          </div>
+
+          <div class="checkbox-entry">
+
+            <input type="checkbox" id="retorno">
+            <label for="retorno">Todas as minhas dúvidas foram esclarecidas durante a mentoria</label>
+
+          </div>
+
+      </fieldset>
+
+      <fieldset>
+
+        <div>
+
+          <legend>Agendando próxima mentoria</legend>
+
+          <hr>
+
+          <div class="side">
+
+            <div class="entrada">
+              <label for="data">Data</label>
+              <input type="date" name="" id="data">
+            </div>
+            <div class="side">
+
+              <div class="entrada">
+                <label for="das">Das</label>
+                <input type="time" name="" id="das">
+              </div>
+
+              <div class="entrada">
+                <label for="ate">Até</label>
+                <input type="time" name="" id="ate">
+              </div>
+
+            </div>
+
+          </div>
+
+
+
+
+
+        </div>
+
+      </fieldset>
+
+      <button>SALVAR</button>
+
+    </form>
+
+
+  </div>
+
+</body>
+
+</html>

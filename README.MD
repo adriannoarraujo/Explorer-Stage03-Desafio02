@@ -1,0 +1,1 @@
+Segundo desafio da stage 03 do curso explorar da Rocketseat. Projeto encontrasse no link do Figma https://www.figma.com/file/JDS6nAOAnWWx5knxiEJrXc/Explorer-(Copy)?node-id=0%3A1s
